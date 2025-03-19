@@ -5,10 +5,7 @@
 }
 
 body {
-    width: 480px;
-    margin: 0 auto;   
     height: 100vh;
-    margin: 0 10px;
     font-family: 'Roboto', sans-serif;
     color: #fff;
     background-color: #000;
@@ -20,7 +17,10 @@ body {
 
 .containerHeader {
     display: flex;
+    width: 100vw;
     height: 50px;
+    margin: 0 auto;
+    padding: 0 10px;
     justify-content: space-between;
     align-items: center;
 }
@@ -49,19 +49,21 @@ h1 {
 }
 
 .menu {
+    width: 95vw;
+    overflow-x: auto;
+    white-space: nowrap;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-    background-color: green;
+    align-items: center;
 }
 
 .menuList {
+    height: 20px;
     display: flex;
     list-style: none;
 }
 
 .menuList a {
+    padding-right: 10px;
     text-decoration: none;
     color: #fff;
 }
