@@ -97,3 +97,19 @@ a:active {
     background-color: white;
     color: black;
 }
+
+.containerVideos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.containerVideo {
+    display: flex;
+    margin: 10px;
+
+    background-color: green;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
