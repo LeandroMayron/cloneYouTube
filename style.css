@@ -125,9 +125,64 @@ a:active {
 
 .logoVideo {
     width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
-h4 {
-    margin-left: 10px;
+.containerInfoVideo {
+    margin-left: 20px;
+    letter-spacing: 3px;
 }
+
+.containerInfoVideo h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.containerInfoVideo p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #606060;
+}
+
+.containerInfoVideo span {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.info {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info ul {
+    margin-left: 5px;
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: #606060;
+}
+
+.containerShorts {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.logoShorts {
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logoShorts h2 {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+
