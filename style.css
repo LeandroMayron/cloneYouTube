@@ -167,13 +167,14 @@ a:active {
 }
 
 .containerShorts {
+    display: flex;
     width: 100vw;
-    height: 100vh;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .logoShorts {
-    margin: 20px 10px;
+    width: 100vw;
+    margin-left: 10px;
     display: flex;
     align-items: center;
 }
@@ -181,8 +182,12 @@ a:active {
 .logoShorts h2 {
     margin-left: 20px;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
+
+.menuShorts {
+    width: 20px;
+}
 
 
